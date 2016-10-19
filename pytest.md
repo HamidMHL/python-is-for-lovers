@@ -145,6 +145,9 @@ TODO I need to throw my demo repository up somewhere. But here are some document
 
 # Troubleshooting note
 
+
+how can I change or edit this? 
+
 There’s some integration between pytest and tox. You’ll often use them together. Always use tox’s configuration files. Pytest will work with them. Tox will work with them. You’ll have confusion otherwise :)
 
 TIP: ONLY use a tox.ini. If you have a pytest.ini, move the bits under the [pytest] section into a [pytest] section in your tox.ini. Do the same for setup.cfg if you have one.
